@@ -18,5 +18,21 @@ const colemak = {
     },
     use: function (key) {
         return `col${key}`
+    },
+    map: function (a, b) {
+        api.map(colemak.use(a), forward.use(b))
+    }
+}
+
+const mapLists = {
+    'e': 'j',
+    'u': 'k',
+    'n': 'h',
+    'i': 'l',
+}
+
+function mapAll(mapLists) {
+    for (let key in mapLists) {
+        colemak.map(key, mapLists[key])
     }
 }
