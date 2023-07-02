@@ -84,9 +84,24 @@ const mapLists = {
     'zu': 'zi',
     'zo': 'ze',
     'zz': 'zr',
+    // mouse_click 鼠标点击     
+    'fn': 'f',
+    'fi': 'cf',
+    'fe': 'af',
+    'fu': 'gf',
+    'ff': 'q',
+    'F': ';di'
 }
 
 forwardFactory.push(mapLists)
 forwardFactory.map(mapLists)
+// 鼠标点击
+api.unmap('gi')
+api.unmap('[[')
+api.unmap(']]')
+api.unmap(';m')
+api.unmap(';fs')
+api.unmap('O')
+api.unmap('C')
 forwardFactory.pull(mapLists)
 
