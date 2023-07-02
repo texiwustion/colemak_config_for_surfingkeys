@@ -13,8 +13,9 @@ const forward = {
 
 const colemak = {
     forward: function (key) { // 转发即将被 unmap 的键
-        api.unmap(`col${key}`)
         api.map(key, `col${key}`)
+        api.unmap(`col${key}`)
+        
     },
     use: function (key) {
         return `col${key}`

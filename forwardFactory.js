@@ -13,7 +13,9 @@ const forwardFactory = {
     },
     pull: function (mapLists) {
         for (let key in mapLists) {
-            forward.cancel(mapLists[key])
+            forward.cancel(mapLists[key])   
+        }
+        for (let key in mapLists) {
             colemak.forward(key)
         }
     }
