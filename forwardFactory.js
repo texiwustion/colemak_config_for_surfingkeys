@@ -2,7 +2,7 @@ import 'forward'
 
 const forwardFactory = {
     push: function (mapLists) { // forward original keys
-        for (let key of mapLists) {
+        for (let key in mapLists) {
             forward.add(mapLists[key])
         }
     },
