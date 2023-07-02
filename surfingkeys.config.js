@@ -63,6 +63,27 @@ const mapLists = {
     'ge': 'G',
     'N': '0',
     'I': '$',
+    /// tabs
+    // 垂直标签习惯
+    'ty': 'yt',
+    'tY': 'yT',
+    'tU': 'g0',
+    'tE': 'g$',
+    'txU': 'gx0',
+    'txu': 'gxt',
+    'txE': 'gx$',
+    'txe': 'gxT',
+    'txx': 'gxx',
+    'te': 'R',
+    'te': 'E',
+    'tu': 'on',
+    'tw': 'W',
+    'ttn': '<<',
+    'tti': '>>',
+    // 缩放
+    'zu': 'zi',
+    'zo': 'ze',
+    'zz': 'zr',
 }
 
 forwardFactory.push(mapLists)
