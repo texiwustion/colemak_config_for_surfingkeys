@@ -1,5 +1,5 @@
 # colemak_config_for_surfingkeys
-This is a colemak config for !(surfingkeys)[https://github.com/brookhong/Surfingkeys]. 
+This is a colemak config for ![surfingkeys](https://github.com/brookhong/Surfingkeys). 
 
 # Keymap
 
@@ -18,3 +18,8 @@ E       Scroll full page down
 U       Scroll full page up
 N       滚到最左边
 I       滚到最右边
+
+## tab
+
+![tab](imgs/tab.jpg)
+
