@@ -25,3 +25,15 @@ This is a colemak config for [surfingkeys](https://github.com/brookhong/Surfingk
 
 ![tab](imgs/tab.jpg)
 
+## mouse click 鼠标点击
+
+|  keys        | 功能                             |
+|--------------|----------------------------------|
+|   <Ctrl-h>   | 触发元素的鼠标移入事件             |
+|   <Ctrl-j>   | 触发元素的鼠标移出事件             |
+| fn           | Open a link, press SHIFT to flip overlapped hints, hold SPACE to hide hints    |
+| fi           | 在新标签页打开多个链接             |
+| fe           | 在新标签页打开链接                |
+| fu           | 在新标签页后台打开链接            |
+| ff           | 点击图片或按钮                     |
+| F            | 下载图片                          |
