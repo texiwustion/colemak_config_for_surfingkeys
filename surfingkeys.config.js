@@ -74,8 +74,8 @@ const mapLists = {
     'txE': 'gx$',
     'txe': 'gxT',
     'txx': 'gxx',
-    'tu': 'R',
-    'te': 'E',
+    'tu': 'E',
+    'te': 'R',
     'tn': 'on',
     'tw': 'W',
     'ttn': '<<',
@@ -94,6 +94,7 @@ const mapLists = {
 }
 
 forwardFactory.push(mapLists)
+api.unmap('t') 
 forwardFactory.map(mapLists)
 // 鼠标点击
 api.unmap('gi')
