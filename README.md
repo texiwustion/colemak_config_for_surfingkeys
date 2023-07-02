@@ -12,8 +12,8 @@ e       向下滚动
 u       向上滚动
 n       向左滚动
 i       向右滚动
-le      Scroll half page down
-lu      Scroll half page up
+he      Scroll half page down
+hu      Scroll half page up
 E       Scroll full page down
 U       Scroll full page up
 N       滚到最左边
