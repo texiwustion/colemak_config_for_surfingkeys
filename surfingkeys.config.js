@@ -15,6 +15,7 @@ const colemak = {
     forward: function (key) { // 转发即将被 unmap 的键
         api.map(key, `col${key}`)
         api.unmap(`col${key}`)
+        
     },
     use: function (key) {
         return `col${key}`
@@ -38,6 +39,8 @@ const forwardFactory = {
     pull: function (mapLists) {
         for (let key in mapLists) {
             forward.cancel(mapLists[key])
+        }
+        for (let key in mapLists) {
             colemak.forward(key)
         }
     }
@@ -45,10 +48,21 @@ const forwardFactory = {
 
 const mapLists = {
     /// scroll page
+    // common
     'e': 'j',
     'u': 'k',
     'n': 'h',
     'i': 'l',
+    // 稍大幅度
+    'le': 'd',
+    'lu': 'u',
+    // 最大幅度
+    'E': 'P',
+    'U': 'U',
+    'gu': 'gg',
+    'ge': 'G',
+    'N': '0',
+    'I': '$',
 }
 
 forwardFactory.push(mapLists)
