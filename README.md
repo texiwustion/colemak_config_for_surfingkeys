@@ -32,8 +32,8 @@ This is a colemak config for [surfingkeys](https://github.com/brookhong/Surfingk
 | zu           | 放大页面                                    |
 | ze           | 缩小页面                                    |
 | zz           | 重置缩放比例                                  |
-|       | 固定／解除固定当前标签页                         |
-|       | 静音／解除静音当前标签页                         |
+|  \<Alt-p\>     | 固定／解除固定当前标签页                         |
+|  \<Alt-m\>     | 静音／解除静音当前标签页                         |
 | x            | 关闭当前标签页                                |
 | X            | 恢复刚关闭的标签页                             |
 | ty           | 复制当前标签页                                |
